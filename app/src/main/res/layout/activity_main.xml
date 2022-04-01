@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="412dp"
+        android:layout_height="74dp"
+        android:background="#5CE1E6"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-1dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/SIFONN_BASIC"
+        android:shadowColor="#686868"
+        android:text="@string/app_name"
+        android:textColor="#FFFFFF"
+        android:textSize="28"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="129dp"
+        android:layout_height="112dp"
+        android:progressTint="#00BCD4"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="208dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="236dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/SIFONN_BASIC"
+        android:text="@string/primeira_linha"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#00BCD4"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/progressBar"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        tools:layout_editor_absoluteX="87dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="108"
+        android:layout_height="120"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="440dp"
+        app:layout_constraintBottom_toTopOf="@+id/toolbar2"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:srcCompat="@drawable/image_removebg_preview"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="108dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="440dp"
+        android:rotation="182"
+        android:rotationX="182"
+        app:layout_constraintBottom_toTopOf="@+id/toolbar2"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:srcCompat="@drawable/image_removebg_preview"
+        tools:layout_editor_absoluteX="304dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:layout_marginBottom="56dp"
+        android:fontFamily="@font/SIFONN_BASIC"
+        android:text="@string/legenda"
+        android:textColor="#00BCD4"
+        android:textColorHighlight="#00BCD4"
+        android:textSize="18"
+        app:layout_constraintBottom_toTopOf="@+id/progressBar2"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar"
+        tools:layout_editor_absoluteX="61dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="186dp"
+        android:layout_height="0dp"
+        android:progressTint="#009688"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="496dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="186dp"
+        android:layout_height="0dp"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="543dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar4"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="186dp"
+        android:layout_height="0dp"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="588dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="85dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="43dp"
+        android:fontFamily="@font/forum"
+        android:text="@string/subject_1"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:layout_editor_absoluteX="43dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="85dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="13dp"
+        android:fontFamily="@font/forum"
+        android:text="@string/subject_2"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:layout_editor_absoluteX="43dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="85dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginBottom="42dp"
+        android:fontFamily="@font/forum"
+        android:text="@string/subject_3"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/toolbar2"
+        app:layout_constraintTop_toTopOf="@+id/textView5"
+        tools:layout_editor_absoluteX="43dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="413dp"
+        android:layout_height="78dp"
+        android:background="#FAFAFA"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="656dp" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="top"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="672dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:isScrollContainer="false"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="658dp" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:background="@android:drawable/btn_star"
+        android:backgroundTint="#5CE1E6"
+        app:itemBackground="@android:drawable/btn_star"
+        app:itemIconTint="@color/design_default_color_secondary"
+        app:itemTextColor="#5CE1E6"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="664dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

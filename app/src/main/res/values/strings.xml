@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MathApp</string>
+    <string name="primeira_linha">Seu desempenho geral</string>
+    <string name="legenda">Seu desempenho por assunto</string>
+    <string name="subject_1">Primeira matéria</string>
+    <string name="subject_2">Segunda matéria</string>
+    <string name="subject_3">Terceira matéria</string>
+
+</resources>
